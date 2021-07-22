@@ -36,7 +36,11 @@ I prefer
 	
 Originally I wanted to make only this change.
 	
-I do not like "if(" without space.
+I do not like 
+
+	if( 
+
+without space.
 
 I prefer
 
@@ -83,7 +87,7 @@ or by
 
 	>PrettyListingRemover C:\MyProjects\Mesh\*.cpp
 	
-(full path mask is required).
+(a full path mask is required).
 
 Language
 --------
