@@ -29,7 +29,7 @@ separating code fragments - blank lines do not carry information. I do not like 
 	else
 	{
 
-- I prefer
+I prefer
 
 	} else
 	{
