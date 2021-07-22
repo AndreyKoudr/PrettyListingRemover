@@ -13,7 +13,7 @@ it is only needed to turn off "autocompletion" somewhere in Options, you are wro
 but you will not find any. There are dozens of places which control various autocompletions and actions and other similar 
 operations, on paste, on typing, on indentation etc. 
 
-But this is not the whole story. There is such a terrible thing called <B>reformatting</B> controlled in Options and not from a single place. 
+But this is not the whole story. There is such a horrible thing called <B>reformatting</B> controlled in Options and not from a single place. 
 While porting the code, I wrote a console application to tidy up the old code, namely place classes into separate files, insert Doxygen-style comments,
 divide the whole thing into namespaces etc. and wrote a special console application to do this
 (the whole code is quite large). I made the new code compile under 2015 but at some moment after some work with it I discovered that <B>THE WHOLE CODE</B> had been reformatted without any warning. I have no idea when. Now I know this reformatting is called "pretty listing". 
