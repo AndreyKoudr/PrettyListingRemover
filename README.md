@@ -40,32 +40,32 @@ I do not like "if(" without space.
 
 I prefer
 
-  CXGeometry *list = new CXGeometry();
+	  CXGeometry *list = new CXGeometry();
 
-  // get list of spline surfaces
-  CXGeometry *splinesurfaces = new CXGeometry();
+	  // get list of spline surfaces
+	  CXGeometry *splinesurfaces = new CXGeometry();
 
-  // get cross-shape info
-  int tubemargins[2], tubeC1indexes[4], ductC1indexes[4];
-  GetShapePatchInfo(shapetype,tubemargins,tubeC1indexes,ductC1indexes);
+	  // get cross-shape info
+	  int tubemargins[2], tubeC1indexes[4], ductC1indexes[4];
+	  GetShapePatchInfo(shapetype,tubemargins,tubeC1indexes,ductC1indexes);
 
 to
   
-  CXGeometry *list = new CXGeometry();
-  // get list of spline surfaces
-  CXGeometry *splinesurfaces = new CXGeometry();
-  // get cross-shape info
-  int tubemargins[2], tubeC1indexes[4], ductC1indexes[4];
-  GetShapePatchInfo(shapetype,tubemargins,tubeC1indexes,ductC1indexes);
+	  CXGeometry *list = new CXGeometry();
+	  // get list of spline surfaces
+	  CXGeometry *splinesurfaces = new CXGeometry();
+	  // get cross-shape info
+	  int tubemargins[2], tubeC1indexes[4], ductC1indexes[4];
+	  GetShapePatchInfo(shapetype,tubemargins,tubeC1indexes,ductC1indexes);
   
 but even better to place comments from position 31 and get an even better look
 
-  CXGeometry *list = new CXGeometry();
-								// get list of spline surfaces
-  CXGeometry *splinesurfaces = new CXGeometry();
-								// get cross-shape info
-  int tubemargins[2], tubeC1indexes[4], ductC1indexes[4];
-  GetShapePatchInfo(shapetype,tubemargins,tubeC1indexes,ductC1indexes);
+	  CXGeometry *list = new CXGeometry();
+									// get list of spline surfaces
+	  CXGeometry *splinesurfaces = new CXGeometry();
+									// get cross-shape info
+	  int tubemargins[2], tubeC1indexes[4], ductC1indexes[4];
+	  GetShapePatchInfo(shapetype,tubemargins,tubeC1indexes,ductC1indexes);
 
 PrettyListingRemover.cpp
 ------------------------
