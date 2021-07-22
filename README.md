@@ -1,5 +1,6 @@
 # PrettyListingRemover
-"Pretty listing" remover reformats code to my (or your) preferences
+"Pretty listing" remover
+-------------------------------------------------------------------
 I recently was porting some code from VS2008 to VS2015. 
 
 I was ready for incredibly slow Intellisense which is the stupidest piece of 
